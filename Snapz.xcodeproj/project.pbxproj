@@ -3,25 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56509402220E4174006F717A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56509401220E4174006F717A /* GoogleService-Info.plist */; };
 		56BA16AC220E301500816C44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BA16AB220E301500816C44 /* AppDelegate.swift */; };
-		56BA16AE220E301500816C44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BA16AD220E301500816C44 /* ViewController.swift */; };
+		56BA16AE220E301500816C44 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BA16AD220E301500816C44 /* SignInViewController.swift */; };
 		56BA16B1220E301500816C44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BA16AF220E301500816C44 /* Main.storyboard */; };
 		56BA16B3220E301700816C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56BA16B2220E301700816C44 /* Assets.xcassets */; };
 		56BA16B6220E301700816C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BA16B4220E301700816C44 /* LaunchScreen.storyboard */; };
+		56CC06A1220E578200BC3910 /* SnapzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CC06A0220E578200BC3910 /* SnapzViewController.swift */; };
+		A06BFDE55788E73F884A8A67 /* Pods_Snapz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9F7FE3FE397EC7125A9D99 /* Pods_Snapz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54AB98095291E0935646DC07 /* Pods-Snapz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapz.release.xcconfig"; path = "Target Support Files/Pods-Snapz/Pods-Snapz.release.xcconfig"; sourceTree = "<group>"; };
+		56509401220E4174006F717A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		56BA16A8220E301500816C44 /* Snapz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56BA16AB220E301500816C44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56BA16AD220E301500816C44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56BA16AD220E301500816C44 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		56BA16B0220E301500816C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56BA16B2220E301700816C44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56BA16B5220E301700816C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56BA16B7220E301700816C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56CC069F220E56E300BC3910 /* Snapz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snapz.entitlements; sourceTree = "<group>"; };
+		56CC06A0220E578200BC3910 /* SnapzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapzViewController.swift; sourceTree = "<group>"; };
+		E374C39443EDA2966E79C3D0 /* Pods-Snapz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapz.debug.xcconfig"; path = "Target Support Files/Pods-Snapz/Pods-Snapz.debug.xcconfig"; sourceTree = "<group>"; };
+		FA9F7FE3FE397EC7125A9D99 /* Pods_Snapz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +38,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06BFDE55788E73F884A8A67 /* Pods_Snapz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00C8319428BB5645AE2DB235 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E374C39443EDA2966E79C3D0 /* Pods-Snapz.debug.xcconfig */,
+				54AB98095291E0935646DC07 /* Pods-Snapz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		31590562025986146775A49E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA9F7FE3FE397EC7125A9D99 /* Pods_Snapz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		56BA169F220E301500816C44 = {
 			isa = PBXGroup;
 			children = (
 				56BA16AA220E301500816C44 /* Snapz */,
 				56BA16A9220E301500816C44 /* Products */,
+				00C8319428BB5645AE2DB235 /* Pods */,
+				31590562025986146775A49E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +83,15 @@
 		56BA16AA220E301500816C44 /* Snapz */ = {
 			isa = PBXGroup;
 			children = (
+				56CC069F220E56E300BC3910 /* Snapz.entitlements */,
 				56BA16AB220E301500816C44 /* AppDelegate.swift */,
-				56BA16AD220E301500816C44 /* ViewController.swift */,
+				56BA16AD220E301500816C44 /* SignInViewController.swift */,
+				56CC06A0220E578200BC3910 /* SnapzViewController.swift */,
 				56BA16AF220E301500816C44 /* Main.storyboard */,
 				56BA16B2220E301700816C44 /* Assets.xcassets */,
 				56BA16B4220E301700816C44 /* LaunchScreen.storyboard */,
 				56BA16B7220E301700816C44 /* Info.plist */,
+				56509401220E4174006F717A /* GoogleService-Info.plist */,
 			);
 			path = Snapz;
 			sourceTree = "<group>";
@@ -71,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56BA16BA220E301700816C44 /* Build configuration list for PBXNativeTarget "Snapz" */;
 			buildPhases = (
+				4B70CA3D802385AA3C225AE2 /* [CP] Check Pods Manifest.lock */,
 				56BA16A4220E301500816C44 /* Sources */,
 				56BA16A5220E301500816C44 /* Frameworks */,
 				56BA16A6220E301500816C44 /* Resources */,
+				F8FC14F259F3F13E7AF2309D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,11 +130,16 @@
 				TargetAttributes = {
 					56BA16A7220E301500816C44 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
 			buildConfigurationList = 56BA16A3220E301500816C44 /* Build configuration list for PBXProject "Snapz" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -123,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56BA16B6220E301700816C44 /* LaunchScreen.storyboard in Resources */,
+				56509402220E4174006F717A /* GoogleService-Info.plist in Resources */,
 				56BA16B3220E301700816C44 /* Assets.xcassets in Resources */,
 				56BA16B1220E301500816C44 /* Main.storyboard in Resources */,
 			);
@@ -130,12 +170,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B70CA3D802385AA3C225AE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snapz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8FC14F259F3F13E7AF2309D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snapz/Pods-Snapz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Snapz/Pods-Snapz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56BA16A4220E301500816C44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56BA16AE220E301500816C44 /* ViewController.swift in Sources */,
+				56CC06A1220E578200BC3910 /* SnapzViewController.swift in Sources */,
+				56BA16AE220E301500816C44 /* SignInViewController.swift in Sources */,
 				56BA16AC220E301500816C44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,11 +374,14 @@
 		};
 		56BA16BB220E301700816C44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E374C39443EDA2966E79C3D0 /* Pods-Snapz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Snapz/Snapz.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 484CXRFUD3;
 				INFOPLIST_FILE = Snapz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +395,14 @@
 		};
 		56BA16BC220E301700816C44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54AB98095291E0935646DC07 /* Pods-Snapz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Snapz/Snapz.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 484CXRFUD3;
 				INFOPLIST_FILE = Snapz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
